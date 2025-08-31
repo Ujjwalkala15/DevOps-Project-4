@@ -21,7 +21,7 @@
 title: "Ujjwal Kala"
 email: "ujjwal97kala@gmail.com"
 description: "Site Reliability Engineer | AWS | Kubernetes | Terraform"
-baseurl: "" # leave blank if deploying to root
+baseurl: "/DevOps-Project-4" # leave blank if deploying to root
 url: "https://ujjwalkala15.github.io"
 #twitter_username: "jekyllrb"
 github_username: "Ujjwalkala15"
