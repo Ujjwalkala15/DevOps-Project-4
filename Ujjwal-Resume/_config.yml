@@ -23,8 +23,8 @@ email: "ujjwal97kala@gmail.com"
 description: "Site Reliability Engineer | AWS | Kubernetes | Terraform"
 baseurl: "" # leave blank if deploying to root
 url: "https://ujjwalkala15.github.io"
-twitter_username: "jekyllrb"
-github_username: "jekyll"
+#twitter_username: "jekyllrb"
+github_username: "Ujjwalkala15"
 
 # Build settings
 remote_theme: pages-themes/minimal
