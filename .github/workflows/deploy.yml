@@ -20,14 +20,17 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd Ujjwal-Resume
         gem install bundler
         bundle install
 
     - name: Build site
-      run: bundle exec jekyll build
+      run: |
+        cd Ujjwal-Resume
+        bundle exec jekyll build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        publish_dir: Ujjwal-Resume/_site
